@@ -1,0 +1,35 @@
+<nav class="navbar-footer fixed-bottom navbar-light bg-light">
+
+    <div class="row">
+
+        <div class="col-sm" routerLinkActive="active">
+          <a [routerLink]="['/main', 'home']">
+            <div class="menu-button">
+              <i class="fas fa-home"></i>
+              <p>Home</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm" routerLinkActive="active">
+          <a [routerLink]="['/main', 'store']">
+            <div class="menu-button">
+              <i class="fas fa-store"></i>
+              <p>Store</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm" routerLinkActive="active">
+          <a [routerLink]="['/main', 'user']">
+            <div class="menu-button">
+              <i class="far fa-user"></i>
+              <p>My</p>
+            </div>
+          </a>
+        </div>
+
+    </div>
+
+</nav>
+
